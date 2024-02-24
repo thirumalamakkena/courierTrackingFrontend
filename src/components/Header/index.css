@@ -1,0 +1,46 @@
+/* FILEPATH: /d:/mini-projects/courierTrackingFrontend/courier-tracking/src/components/Header/index.css */
+
+/* Add your CSS styles here */
+.navbar {
+  background-color: orange;
+  padding: 10px;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  font-family: "serif";
+}
+
+.navbar-brand {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+}
+
+.login-button {
+  background-color: white;
+  color: orange;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  font-family: "serif";
+}
+
+.logout-button {
+  background-color: red;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  font-family: "serif";
+}
+
+
