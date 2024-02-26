@@ -52,7 +52,7 @@ const Modal = ({ closeModal, onSubmit, defaultValue,courierIDX }) => {
       <div className="modal">
         <form>
           <div className="form-group">
-            <label htmlFor="shipmentID">ShippingID</label>
+            <label htmlFor="shipmentID">ShipmentID</label>
             <input name="shipmentID" onChange={handleChange} value={formState.shipmentID}  />
           </div>
           <div className="form-group">

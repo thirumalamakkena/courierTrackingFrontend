@@ -13,7 +13,7 @@ const Table = ({ rows, deleteRow, editRow }) => {
       <table className="table">
         <thead>
           <tr>
-            <th>ShippingID</th>
+            <th>ShipmentID</th>
             <th className="expand">Location</th>
             <th>Status</th>
             {jwtToken && <th>Actions</th>}
