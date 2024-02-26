@@ -3,7 +3,7 @@ import "./index.css";
 
 const CourierForm = ({ closeCourierForm, getCourierFormData }) => {
   const [courierFormDataState, setCourierFormDataState] = useState({
-    courierId: "",
+    courierID: "",
     courierName: "",
     fromAddress: "",
     toAddress: "",
@@ -11,7 +11,7 @@ const CourierForm = ({ closeCourierForm, getCourierFormData }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (!courierId || !courierName || !fromAddress || !toAddress) {
+    if (!courierID || !courierName || !fromAddress || !toAddress) {
       alert("Please fill all the details");
       return;
     }
@@ -27,7 +27,7 @@ const CourierForm = ({ closeCourierForm, getCourierFormData }) => {
     });
   };
 
-  const { courierId, courierName, fromAddress, toAddress } =
+  const { courierID, courierName, fromAddress, toAddress } =
     courierFormDataState;
 
   return (
@@ -39,15 +39,15 @@ const CourierForm = ({ closeCourierForm, getCourierFormData }) => {
     >
       <div className="modal">
         <form onSubmit={handleSubmit} className="form-container">
-          <label htmlFor="courierId" className="form-label">
+          <label htmlFor="courierID" className="form-label">
             Courier ID:
           </label>
           <input
             type="text"
             id="courierId"
             className="form-input"
-            value={courierId}
-            name="courierId"
+            value={courierID}
+            name="courierID"
             onChange={onChangeCourier}
           />
           <br />

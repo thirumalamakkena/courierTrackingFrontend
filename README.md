@@ -11,7 +11,7 @@ This project is a courier tracking system that allows users to track their packa
 - User-friendly interface
 
 ## Installation
-1. Clone the repository: `git clone https://github.com/your-username/courier-tracking.git`
+1. Clone the repository: `git clone https://github.com/thirumalamakkena/courierTrackingFrontend.git`
 2. Install dependencies: `npm install`
 3. Start the application: `npm start`
 

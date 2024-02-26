@@ -3,7 +3,7 @@ import React from "react";
 const CourierModal = ({ close, courierData }) => {
  
   const {
-    courierId,
+    courierID,
     courierName,
     fromAddress,
     toAddress,
@@ -21,7 +21,7 @@ const CourierModal = ({ close, courierData }) => {
     >
       <div className="modal">
         <h2>Courier Details</h2>
-        <p>Courier ID: {courierId}</p>
+        <p>Courier ID: {courierID}</p>
         <p>Courier Name: {courierName}</p>
         <p>From Address: {fromAddress}</p>
         <p>To Address: {toAddress}</p>
